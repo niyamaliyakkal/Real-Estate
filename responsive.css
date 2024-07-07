@@ -1,0 +1,866 @@
+/* Tablet */
+@media (max-width:1025px){
+    header{
+        /* padding:2rem; */
+
+    }
+    .titles h6{
+        font-size: 70px;
+        font-weight: 750;
+    }
+    .titles p{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        width: 550px;
+    }
+    .titles{
+        gap:30px;
+    }
+    .middlesection{
+        display: none;
+    }
+    .propertyiconpage{
+        gap:25px;
+        padding:80px 80px;
+    }
+    .propertyiconpage h6{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .propertyiconpage p{
+        font-size: 20px;
+        font-weight:300;
+        line-height: 25px;
+        text-align: center;
+        width:700px;
+        gap:20px;
+    }
+    .collage{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 20px;
+        grid-column-gap:20px;
+        padding:30px 0;
+    }
+    #item4{
+    height: 300px;
+    }
+    #item3{
+        height: 300px;
+    }
+    #item5{
+        height: 300px;
+    }
+    #item5 img{
+        height: 100%;
+    }
+    .buttonnn{
+        padding: 12px 24px;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 14px;
+    }
+    .propertiesplaceandarea h5{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .propertiesplaceandarea h6{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 14px; 
+    }
+    .locationpin{
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        bottom: 10%;
+        left:5%;
+    }
+    .locationpin{
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        bottom: 10%;
+        left:5%;
+    }
+    .locationpin{
+        width: 35px;
+        height: 35px;
+        bottom: 10%;
+        left:5%;
+    }
+    .propertydetails{
+        padding: 80px 80px ;
+    }
+    .detailstitles{
+        gap: 10px;
+    }
+    .detailstitles h6{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+    .detailstitles p{
+        width: 700px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+    }
+    .propertycontents{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 30px 0;
+    }
+    .service1, .service{
+        gap:15px;
+        align-items: center;
+    }
+    .service1 img{
+        width: 80px;
+        height:80px;
+    }
+    .service img{
+        width: 80px;
+        height:80px;
+    }
+    .service1 h5{
+        font-size: 20px;
+    }
+    .service h5{
+        font-size: 20px;
+
+    }
+    .service1 p{
+        width: 160px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: center;
+
+    }
+    .service p{
+        width: 160px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: center;
+
+    }
+    .service1 a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+    }
+    
+    .service a{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+    }
+    .latestproperties{
+        padding: 80px 80px;
+    }
+    .latesttitles h5{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+    .latesttitles p{
+        width: 700px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+    
+    }
+    .latesttitles{
+        gap:25px;
+    }
+    .latestitems{
+        padding: 30px 0;
+        display: grid;
+        gap: 30px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cardcontainer{
+        border-radius:12px;
+        box-shadow:1px 1px 10px silver;
+    }
+    .minicardcontainer{
+        gap: 16px;
+        padding: 18px;
+    }
+    .minicardcontainer h5{
+        width: auto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .minicardcontainer h6{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .images{
+        width: auto;
+        height:20px;
+        gap: 16px;
+    }
+    .carcontainer, .bathcontainer, .area{
+        gap: 8px;
+    }
+    .images span{
+        font-size: 16px;
+        font-weight:400;
+        line-height: 16px;
+    }
+    .area img{
+        width: 16px;
+        height:16px;
+    }
+    .jennysection{
+        height: 50px;
+        gap:20px;
+        width: 100%;
+    }
+    .jennyID{
+        gap:12px;
+    }
+    .jennyID img{
+        width: 36px;
+        height: 36px;
+    
+    }
+    .jennyID span{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    .jennylogos{
+        width: 100px;
+        gap:10px;
+    }
+    .jennylogos img{
+        width: 26px;
+        height:26px;
+    }
+    .latestproperties button{
+        margin-top: 10px;
+        width: 150px;
+        height: 45px;
+        padding: 6px 10;
+        gap: 5px;
+        border-radius: 4px;
+        border:none;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    .offerbadge1,.offerbadge2 {
+        /* width: 50px; */
+        height:28px;
+        padding:2px 6px;
+        border-radius: 2px;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+    }
+    .hotsaletitles h5{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+    .hotsaletitles p{
+        width: 700px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+    }
+    .hotsaletitles{
+        gap: 20px;
+    }
+    .salebadgeof1,.salebadgeof3{
+        height:28px;
+        padding:2px 6px;
+        border-radius: 2px;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+        top:3%; left:3%;
+    }
+    .mySwiper{
+        gap:20px;
+        padding:80px 80px;
+    }
+    .swiper-slide{
+        display: flex;
+        width:500px;
+        height: 385px;
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .location img{
+        width:16px;
+        height: 16px;
+    }
+    .location span{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+    }
+    .space img{
+        width:16px;
+        height: 16px;
+    }
+    .space span{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+    }
+    .placeandarea{
+        width: auto;
+        bottom:5%;
+        left:5%;
+        right:5%;
+        /* gap:px; */
+    }
+    .contactus{
+        height: 500px;
+        gap: 20px;
+    }
+    .contactustitles h5{
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+    .contactustitles p{
+        font-size: 16px;
+        font-weight:300;
+        line-height: 20px;
+        text-align: center;
+        width:600px;
+    }
+    .contactustitles{
+        gap: 20px ;
+    }
+    .contactus button{
+        width:auto;
+        height: 40px;
+        padding: 6px 10px;
+        border-radius: 2px;
+        border: 0.5px solid rgba(255, 255, 255, 0.418);
+        background-color: rgba(240, 248, 255, 0);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16px;
+    }
+    .quicklinks{
+        padding:80px 80px;
+    }
+    .wholecontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+
+    }
+    .quickcontainer1{
+        gap:12px;
+    
+    }
+    .quickcontainer1 img{
+        width: 200px;
+        height: 150px;
+    }
+    .quickcontainer1 h5{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .quickcontainer1 h4{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+    .quickcontainer1 p{
+        width:350px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+    }
+    .quickcontainer1 span{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 18px;
+        color:rgba(54, 58, 61, 1) ;
+    }
+    .lastlogos{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap:16px;
+    }
+    .lastlogos img{
+        color:rgba(74, 96, 161, 1);
+        width:20px;
+        height:20px;
+    }
+    .columncontainer h5{
+        font-size: 16px;
+        font-weight:700;
+        line-height: 18px;
+    }
+    .columncontainer a{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+    }
+}    
+
+/* navbar */
+@media (max-width:900px){
+    section .fa-bars{
+        display: block;
+    }
+    section .containerhome-2{
+        display: flex;
+        height: 80dvh;
+        flex-direction: column;
+        align-items: center;
+        padding:20px 50px 20px 50px;
+        position: absolute;
+        top:100%; left: 0; right: 0;
+        background:rgba(121, 140, 180, 0.925);
+        gap: 10px;
+        clip-path: polygon(0 0,100% 0,100% 0, 0 0);
+    }
+    section #toggler:checked ~ .containerhome-2{
+        clip-path:polygon(0 0,100% 0,100% 100%, 0 100%) ;
+    }
+    section .containerhome-2 a{
+        font-size: 11px;
+        line-height: 30px;
+        color: white;
+        display: block;
+    }
+}
+@media (max-width:800px){
+    .titles{
+        gap:5px;
+    }
+    .titles h6{
+        font-family: "Public Sans", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    .propertyiconpage h6{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .propertyiconpage p{
+        font-size: 14px;
+        width:500px;
+    }
+    .propertiesplaceandarea h5{
+        font-size: 16px;
+    }
+    .propertiesplaceandarea h6{
+        font-size: 10px;
+    
+    }
+    .locationpin{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 10%;
+        left:5%;
+    }
+    .detailstitles h6{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .detailstitles p{
+        font-size: 14px;
+        width:500px;
+    }
+    .latesttitles h5{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .latesttitles p{
+        font-size: 14px;
+        width:500px;
+    }
+}
+
+/* Mobile */
+@media (max-width:576px){
+    header .navbar{
+        padding: 5px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titles h6{
+        font-family: "Public Sans", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    .titles p{
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+        color:rgba(237, 239, 246, 1);
+        width: 400px;
+    }
+    .logos img{
+        width: 20px;
+        height: 20px;
+    }
+    .calllogo img{
+        width: 15px;
+        height: 15px;
+    }
+    .calllogo span{
+        font-size: 8px;
+    }
+    .horizontallll{
+        width:100vw;
+        height:0.1px;
+        background-color: rgba(219, 223, 236, 0.322);
+    }
+    .propertyiconpage{
+        padding:40px 40px;
+    }
+    .propertyiconpage h6{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 12px;
+    }
+    .propertyiconpage p{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+        text-align: center;
+        width:400px;
+    }
+    .collage{
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 20px;
+        grid-column-gap:0px;
+        padding:0 0;
+    }
+    #item4{
+        grid-row:4/4;
+        grid-column: 1/1;
+        height: auto;
+        /* width:436px; */
+    
+    }
+    .propertiesplaceandarea{
+        gap:5px;
+        top:5%;
+        left: 3%;
+    }
+    .propertiesplaceandarea h5{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.001em;
+        color: rgba(255, 255, 255, 1);
+    }
+    .propertiesplaceandarea h6{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        color: rgba(255, 255, 255, 1);
+    
+    }
+    .locationpin{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        bottom: 5%;
+        left:3%;
+    }
+    .propertydetails{
+        background: rgba(237, 239, 246, 1);
+        padding: 40px 40px ;
+    }
+    .detailstitles h6{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+    }
+    .detailstitles p{
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 15px;
+        text-align: center;
+        width:400px;
+    }
+    .service1{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .service{
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;    
+    }
+    .service1 p{
+        width: 180px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+        color: 
+        rgba(136, 144, 153, 1);
+    }
+    .service p{
+        width: 180px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align:center;
+        color: 
+        rgba(136, 144, 153, 1);
+    }
+    .service1 a{
+        font-size: 14px; 
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .service a{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .latestproperties{
+        padding:40px 40px;
+    }
+    .latesttitles h5{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(30, 38, 64, 1);
+    }
+    .latesttitles p{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14px;
+        text-align: center;
+        justify-content: space-between;
+        Width: 500px;
+        color: rgba(136, 144, 153, 1);
+    
+    }
+    .latesttitles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:12px;
+    }
+    .latestitems{
+        display: grid;
+        gap: 24px;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hotsaletitles h5{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(30, 38, 64, 1);
+    }
+    .hotsaletitles p{
+        width:400px;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14px;
+        text-align: center;
+        color: 
+        rgba(136, 144, 153, 1);
+    }
+    .hotsaletitles{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .mySwiper{
+        gap:30px;
+        padding:40px 40px 80px 40px;
+    }
+    .swiper-wrapper{
+        gap:12px;
+    }
+    .swiper-slide{
+        display: flex;
+        width:auto;
+        height: 300px;
+        border-radius: 8px;
+    }
+    .location,.space{
+        gap:3px;
+    }
+    .location img{
+        width:12px;
+        height: 12px;
+    }
+    .location span{
+        font-size: 10px;
+        font-weight: 250;
+        line-height: 10px;
+        color:rgba(255, 255, 255, 1);
+    }
+    .space img{
+        width:12px;
+        height: 12px;
+    }
+    .space span{
+        font-size: 10px;
+        font-weight: 250;
+        line-height: 10px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .placeandarea{
+        width: auto;
+        bottom:3%;
+        left:5%;
+        right:5%;
+    }
+    .contactus{
+        height: 300px;
+        width: 100vw;
+    }
+    .contactustitles h5{
+        font-size: 30px;
+        /* font-weight: 500; */
+        line-height: 30px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    .contactustitles p{
+        font-size: 14px;
+        font-weight:200;
+        line-height: 20px;
+        text-align: center;
+        width:500px;
+        color: rgba(237, 239, 246, 1);
+    }
+    .contactus button{
+        width:100px;
+        height: 40px;
+        padding: 6px 12px;
+        gap: 5px;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16px;
+        text-align: center;
+        color:rgba(255, 255, 255, 1) ;
+    }
+    .quickcontainer{
+        display: flex;
+        justify-content: space-between;
+        gap:100px;
+    }
+    .quicklinks{
+        padding: 40px 40px;
+    }
+    .quickcontainer1{
+        gap:8px;
+    
+    }
+    .quickcontainer1 img{
+        width: 100px;
+        height: 60px;
+    }
+    .quickcontainer1 h5{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0.001em;
+        color:rgba(27, 29, 31, 1);
+    }
+    .quickcontainer1 h4{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 12px;
+        color: rgba(109, 115, 122, 1);
+    }
+    .quickcontainer1 p{
+        width:250px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color:rgba(109, 115, 122, 1)
+    }
+    .quickcontainer1 span{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        color:rgba(54, 58, 61, 1) ;
+    }
+    .lastlogos{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap:14px;
+    }
+    .lastlogos img{
+        color:rgba(74, 96, 161, 1);
+        width:14px;
+        height:14px;
+        object-fit: cover;
+        background-color:rgba(237, 239, 246, 1);
+    }
+    .columncontainer h5{
+        font-size: 14px;
+        font-weight:600;
+        line-height: 18px;
+        letter-spacing: 0.001em;
+        color:rgba(27, 29, 31, 1);
+    }
+    .columncontainer a{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        color:rgba(109, 115, 122, 1);
+        text-decoration: none;
+    }
+}
+
+
